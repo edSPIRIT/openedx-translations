@@ -38,6 +38,8 @@
   "ora-grading.ListView.backToResponsesLowercase": "العودة إلى كافة الردود المفتوحة",
   "ora-grading.ListView.reloadSubmissions": "إعادة تحميل التقديمات",
   "ora-grading.ListView.loadingResponses": "جارٍ تحميل الردود",
+  "ora-grading.NotificationsBanner.Message": "يمكنك الآن تمكين الإشعارات الخاصة بمهام ORA التي تتطلب تصنيف الموظفين، من",
+  "ora-grading.NotificationsBanner.linkMessage": "مركز التفضيلات.",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableNameHeader": "الاسم",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableExtensionHeader": "امتداد الملف",
   "ora-grading.ResponseDisplay.SubmissionFiles.tablePopoverHeader": "بيانات تعريف الملف",

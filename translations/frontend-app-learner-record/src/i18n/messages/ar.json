@@ -55,7 +55,7 @@
   "program.record.name": "سجل {program_name}",
   "platform.and.school.name": "{platform} | {school}",
   "last.updated.date": "آخر تحديث {date}",
-  "learner.username": "{username}",
+  "learner.full_name": "{full_name} |",
   "learner.email": "{email}",
   "help.section.header": "ألديك أسئلة عن سجلات المتعلمين؟",
   "help.section.content.with.link": "لمعرفة المزيد حول السجلات يمكنك {link}",

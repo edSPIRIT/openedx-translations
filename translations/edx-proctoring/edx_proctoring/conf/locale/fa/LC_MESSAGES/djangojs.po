@@ -6,15 +6,14 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
-# Somaye Julaie <joolaee@iingroups.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-17 00:29+0000\n"
-"PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: Somaye Julaie <joolaee@iingroups.com>, 2024\n"
+"POT-Creation-Date: 2024-05-09 00:31+0000\n"
+"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
 "Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,13 +23,13 @@ msgstr ""
 
 #: static/proctoring/js/exam_action_handler.js:44
 msgid "OK"
-msgstr "بسیارخوب"
+msgstr "خوب"
 
 #: static/proctoring/js/exam_action_handler.js:130
 #: static/proctoring/js/exam_action_handler.js:195
 #: static/proctoring/js/exam_action_handler.js:206
 msgid "Error Ending Exam"
-msgstr "خطا در پایان آزمون"
+msgstr "خطا در پایان امتحان"
 
 #: static/proctoring/js/exam_action_handler.js:132
 #: static/proctoring/js/exam_action_handler.js:208
@@ -38,54 +37,55 @@ msgid ""
 "Something has gone wrong ending your exam. Please reload the page and start "
 "again."
 msgstr ""
-"در پایان آزمون شما مشکلی پیش آمده‌است. لطفاً صفحه را دوباره بارگیری کنید و "
-"یک بار دیگر شروع کنید."
+"در پایان امتحان شما مشکلی پیش آمده است. لطفاً صفحه را دوباره بارگیری کنید و "
+"دوباره شروع کنید."
 
 #: static/proctoring/js/exam_action_handler.js:159
 #: static/proctoring/js/exam_action_handler.js:170
 msgid "Error Starting Exam"
-msgstr "خطا در آغاز آزمون"
+msgstr "خطا در شروع امتحان"
 
 #: static/proctoring/js/exam_action_handler.js:161
 msgid ""
 "Something has gone wrong starting your exam. Please double-check that the "
 "application is running."
 msgstr ""
-"هنگام آغاز آزمون مشکلی پیش آمد. لطفاً بررسی کنید که برنامه در حال اجرا باشد."
+"هنگام شروع امتحان مشکلی پیش آمده است. لطفاً دوباره بررسی کنید که برنامه در "
+"حال اجرا باشد."
 
 #: static/proctoring/js/exam_action_handler.js:172
 msgid ""
 "Something has gone wrong starting your exam. Please reload the page and "
 "start again."
 msgstr ""
-"هنگام آغاز آزمون مشکلی پیش آمد. لطفاً صفحه را دوباره بارگیری کنید و یک بار "
-"دیگر شروع کنید."
+"هنگام شروع امتحان مشکلی پیش آمده است. لطفاً صفحه را دوباره بارگیری کنید و "
+"دوباره شروع کنید."
 
 #: static/proctoring/js/exam_action_handler.js:197
 msgid ""
 "Something has gone wrong ending your exam. Please double-check that the "
 "application is running."
 msgstr ""
-"در پایان آزمون شما مشکلی پیش آمد. لطفاً بررسی کنید که برنامه در حال اجرا "
-"باشد."
+"در پایان امتحان شما مشکلی پیش آمده است. لطفاً دوباره بررسی کنید که برنامه در"
+" حال اجرا باشد."
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:218
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:13
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:82
 msgid "Review Policy Exception"
-msgstr "بررسی استثناء خط‌مشی"
+msgstr "بررسی استثناء خط مشی"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:224
 msgid "Add Time(Minutes)"
-msgstr "افزودن زمان (دقیقه)"
+msgstr "اضافه کردن زمان (دقیقه)"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
 msgid "Add Multiplier as a Number Greater Than 1"
-msgstr "ضریب را به‌عنوان عددی بزرگتر از 1 اضافه کنید"
+msgstr "ضریب را به عنوان یک عدد بزرگتر از 1 اضافه کنید"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
 msgid "Add Policy Exception"
-msgstr "افزودن یک استثناء به خط‌مشی"
+msgstr "استثناء سیاست را اضافه کنید"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
@@ -113,7 +113,7 @@ msgstr "ایجاد شده"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:12
 msgid "Download Software Clicked"
-msgstr "بارگیری نرم‌افزار کلیک شد"
+msgstr "دانلود نرم افزار کلیک شد"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:13
 msgid "Ready to start"
@@ -131,11 +131,11 @@ msgstr "آماده ارسال"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:16
 msgid "Declined"
-msgstr "رد"
+msgstr "نپذیرفتن"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:17
 msgid "Timed out"
-msgstr "پایان زمان"
+msgstr "زمان تمام شد"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:18
 msgid "Second Review Required"
@@ -145,13 +145,13 @@ msgstr "بررسی دوم مورد نیاز است"
 #: static/proctoring/js/views/proctored_exam_info.js:21
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:34
 msgid "Submitted"
-msgstr "ارسال‌شده"
+msgstr "ارسال شده"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:20
 #: static/proctoring/js/views/proctored_exam_info.js:34
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:35
 msgid "Verified"
-msgstr "تاییدشده"
+msgstr "تایید شده است"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:21
 #: static/proctoring/js/views/proctored_exam_info.js:38
@@ -167,19 +167,19 @@ msgstr "خطا"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:23
 msgid "Onboarding Missing"
-msgstr "نبود آموزش اولیه"
+msgstr "ورود وجود ندارد"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:24
 msgid "Onboarding Pending"
-msgstr "تعلیق در آموزش اولیه"
+msgstr "ورود به حالت تعلیق"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:25
 msgid "Onboarding Failed"
-msgstr "آموزش اولیه موفق نبود"
+msgstr "ورود ناموفق بود"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:26
 msgid "Onboarding Expired"
-msgstr "انقضا آموزش اولیه"
+msgstr "ورود منقضی شد"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Practice"
@@ -187,59 +187,59 @@ msgstr "تمرین"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Proctored"
-msgstr "محافظت‌شده"
+msgstr "محافظت شده"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:181
 msgid "Timed"
-msgstr "زمان‌بندی‌شده"
+msgstr "زمان بندی شده"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:214
 msgid "Are you sure you want to remove this student's exam attempt?"
-msgstr "آیا مطمئنید که می‌خواهید آزمون وی را حذف کنید؟"
+msgstr "آیا مطمئنید که می‌خواهید امتحان این دانش‌آموز را حذف کنید؟"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:248
 msgid "Are you sure you want to resume this student's exam attempt?"
-msgstr "آیا مطمئن هستید مایلید آزمون وی را از سر بگیرید؟"
+msgstr "آیا مطمئن هستید که می خواهید امتحان این دانش آموز را از سر بگیرید؟"
 
 #: static/proctoring/js/views/proctored_exam_info.js:13
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
 msgid "Not Started"
-msgstr "شروع نشده‌است"
+msgstr "شروع نشده است"
 
 #: static/proctoring/js/views/proctored_exam_info.js:14
 msgid "You have not started your onboarding exam."
-msgstr "شما آزمون دورۀ آموزش اولیه خود را شروع نکرده‌اید."
+msgstr "شما امتحان حضوری خود را شروع نکرده اید."
 
 #: static/proctoring/js/views/proctored_exam_info.js:18
 msgid "You have started your onboarding exam."
-msgstr "شما  آزمون دورۀ آموزش اولیه خود را آغاز کرده‌اید."
+msgstr "شما امتحان حضوری خود را آغاز کرده اید."
 
 #: static/proctoring/js/views/proctored_exam_info.js:22
 msgid "You have submitted your onboarding exam."
-msgstr "آزمون دورۀ آموزش اولیه شما ارسال شد."
+msgstr "شما آزمون حضوری خود را ارسال کرده اید."
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr "آزمون دورۀ آموزش اولیه تایید شده‌است."
+msgstr "آزمون حضوری شما در این دوره تایید شده است."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
-msgstr "آزمون دورۀ آموزش اولیه رد شده است. لطفاً ورود مجدد را بزنید."
+msgstr "امتحان حضوری شما رد شده است. لطفاً ورود مجدد را امتحان کنید."
 
 #: static/proctoring/js/views/proctored_exam_info.js:43
 msgid ""
 "An error has occurred during your onboarding exam. Please retry onboarding."
 msgstr ""
-"خطایی در طول آزمون دورۀ آموزش اولیه رخ داد. لطفاً ورود مجدد را امتحان کنید."
+"خطایی در طول امتحان ورود شما رخ داده است. لطفاً ورود مجدد را امتحان کنید."
 
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr "در دورۀ دیگری تایید شد"
+msgstr "در دوره دیگری تایید شد"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr "آزمون دورۀ آموزش اولیه شما، در دورۀ دیگری تایید شده‌است."
+msgstr "امتحان حضوری شما در دوره دیگری تایید شده است."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
@@ -247,13 +247,12 @@ msgid ""
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
 msgstr ""
-"اگر دستگاه شما تغییر کرده است، توصیه می‌کنیم آزمون این دوره را تکمیل کنید تا"
-" اطمینان حاصل شود که راه‌اندازی برنامه برای شما همچنان با الزامات "
-"پیش‌بینی‌شده مطابقت دارد."
+"اگر دستگاه شما تغییر کرده است، توصیه می‌کنیم امتحان داخلی این دوره را تکمیل "
+"کنید تا مطمئن شوید که راه‌اندازی شما همچنان با الزامات پیش‌بینی مطابقت دارد."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
-msgstr "به‌زودی منقضی می‌شود"
+msgstr "به زودی منقضی می شود"
 
 #: static/proctoring/js/views/proctored_exam_info.js:57
 msgid ""
@@ -261,34 +260,34 @@ msgid ""
 "is expiring soon. Please complete onboarding again to ensure that you will "
 "be able to continue taking proctored exams."
 msgstr ""
-"ورود شما به دورۀ آموزشی اولیه تایید شد. با این حال، این وضعیت به‌زودی منقضی "
-"می‌شود. لطفاً دوباره دورۀ آموزشی اولیه را تکمیل کنید تا اطمینان حاصل شود که "
-"امکان طی آزمون را دارید."
+"نمایه ورود شما تایید شده است. با این حال، وضعیت ورود شما به زودی منقضی "
+"می‌شود. لطفاً دوباره ورود را تکمیل کنید تا مطمئن شوید که می‌توانید امتحانات "
+"پیش‌بینی شده را ادامه دهید."
 
 #: static/proctoring/js/views/proctored_exam_info.js:64
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
 msgid "Expired"
-msgstr "منقضی‌شده"
+msgstr "منقضی شده"
 
 #: static/proctoring/js/views/proctored_exam_info.js:66
 msgid ""
 "Your onboarding status has expired. Please complete onboarding again to "
 "continue taking proctored exams."
 msgstr ""
-"وضعیت دورۀ آموزشی اولیۀ شما منقضی شده‌است. لطفاً برای طی آزمون‌های "
-"محافظت‌شده، دوباره دورۀ آموزشی اولیه را تکمیل کنید."
+"وضعیت ورود شما منقضی شده است. لطفاً برای ادامه شرکت در آزمون‌های اختصاصی، "
+"ورود مجدد را تکمیل کنید."
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"
-msgstr "راه اندازی برنامه آغاز شد"
+msgstr "راه اندازی شروع شد"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
 msgid "Onboarding Started"
-msgstr "دورۀ آموزشی اولیه آغاز شد"
+msgstr "ورود شروع شد"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
 msgid "Onboarding Reset Failed Due to Past Due Exam"
-msgstr "به‌دلیل سررسید گذشتۀ آزمون، بازنشانی دورۀ آموزشی اولیه انجام نشد"
+msgstr "به دلیل سررسید گذشته، بازنشانی داخلی انجام نشد"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
 msgid "Audit"
@@ -296,15 +295,15 @@ msgstr "حسابرسی"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:43
 msgid "Honor"
-msgstr "قوانین اخلاقی"
+msgstr "افتخار و احترام"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
 msgid "Professional"
-msgstr "حرفه‌ای"
+msgstr "حرفه ای"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:45
 msgid "No ID Professional"
-msgstr "بدون شناسۀ حرفه‌ای"
+msgstr "بدون شناسنامه حرفه ای"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:46
 msgid "Credit"
@@ -316,12 +315,12 @@ msgstr "کارشناسی ارشد"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:48
 msgid "Executive Education"
-msgstr "آموزش ضمن خدمت"
+msgstr "آموزش اجرایی"
 
 #: static/proctoring/js/views/proctored_exam_view.js:153
 msgid ""
 "Are you sure you want to leave this page? \n"
 "To pass your proctored exam you must also pass the online proctoring session review."
 msgstr ""
-"آیا مایلید از این صفحه بروید؟\n"
-" برای قبولی در آزمون محافظت‌شده، باید جلسۀبازبینی حفاظتی را  بگذرانید."
+"آیا مطمئن هستید که می خواهید این صفحه را ترک کنید؟\n"
+" برای قبولی در آزمون پروکتوری خود باید بررسی جلسه پروکتوری آنلاین را نیز بگذرانید."

@@ -5,15 +5,14 @@
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
-# Somaye Julaie <joolaee@iingroups.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Somaye Julaie <joolaee@iingroups.com>, 2024\n"
+"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
 "Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,12 +23,12 @@ msgstr ""
 #: static/js/models/coupon_model.js:33
 #: static/js/models/enterprise_coupon_model.js:15
 msgid "This field is required."
-msgstr "پرکردن این قسمت ضروری است."
+msgstr "این فیلد الزامی است."
 
 #: static/js/models/coupon_model.js:34
 #: static/js/models/enterprise_coupon_model.js:16
 msgid "This value must be a number."
-msgstr "یک عدد وارد کنید"
+msgstr "این مقدار باید یک عدد باشد."
 
 #: static/js/models/coupon_model.js:35
 #: static/js/models/enterprise_coupon_model.js:17
@@ -38,24 +37,24 @@ msgstr "این مقدار باید یک تاریخ باشد."
 
 #: static/js/models/coupon_model.js:36
 msgid "At least one seat type must be selected."
-msgstr "حداقل یک نوع صندلی را انتخاب کنید."
+msgstr "حداقل یک نوع صندلی باید انتخاب شود."
 
 #: static/js/models/coupon_model.js:72
 msgid "This field must be empty or contain 1-16 alphanumeric characters."
-msgstr "این فیلد را خالی بگذارید یا  1-16 کاراکتر الفبایی وارد کنید."
+msgstr "این فیلد باید خالی یا حاوی 1-16 کاراکتر الفبایی باشد."
 
 #: static/js/models/coupon_model.js:81
 #, javascript-format
 msgid "Email domain {%s} is invalid."
-msgstr "دامنه ایمیل {%s} معتبر نیست."
+msgstr "دامنه ایمیل {%s} نامعتبر است."
 
 #: static/js/models/coupon_model.js:98
 msgid "Must occur after start date"
-msgstr "باید بعد از تاریخ آغاز، اتفاق بیفتد"
+msgstr "باید بعد از تاریخ شروع اتفاق بیفتد"
 
 #: static/js/models/coupon_model.js:128
 msgid "Max uses for multi-use coupons must be higher than 2."
-msgstr "حداکثر استفاده از کوپن‌های چندمنظوره باید بیشتر از 2 باشد."
+msgstr "حداکثر استفاده برای کوپن های چند منظوره باید بیشتر از 2 باشد."
 
 #: static/js/models/coupon_model.js:152
 msgid "Must occur before end date"
@@ -63,19 +62,19 @@ msgstr "باید قبل از تاریخ پایان اتفاق بیفتد"
 
 #: static/js/models/coupon_model.js:174
 msgid "A valid course ID is required"
-msgstr "شناسۀدورۀ معتبر وارد کنید."
+msgstr "شناسه دوره معتبر مورد نیاز است"
 
 #: static/js/models/coupon_model.js:188
 msgid "A valid Program UUID is required."
-msgstr " برنامۀ UUID معتبر ضروری است."
+msgstr "یک برنامه UUID معتبر مورد نیاز است."
 
 #: static/js/models/course_model.js:54
 msgid "You must select a course type."
-msgstr " یک نوع دوره را انتخاب کنید."
+msgstr "شما باید یک نوع دوره را انتخاب کنید."
 
 #: static/js/models/course_model.js:60
 msgid "You must choose if an honor seat should be created."
-msgstr "لازم است مشخص کنید که آیا صندلی افتخار باید ایجاد شود."
+msgstr "شما باید انتخاب کنید که آیا صندلی افتخار باید ایجاد شود."
 
 #: static/js/models/course_model.js:77
 msgid "The verification deadline must occur AFTER the upgrade deadline."
@@ -83,12 +82,12 @@ msgstr "مهلت تأیید باید پس از پایان مهلت ارتقا ر
 
 #: static/js/models/course_model.js:86
 msgid "Product validation failed."
-msgstr "اعتبارسنجی محصول موفق نبود."
+msgstr "اعتبارسنجی محصول ناموفق بود."
 
 #: static/js/models/course_model.js:94
 #: static/js/views/dynamic_catalog_view.js:70
 msgid "Course ID"
-msgstr "شناسۀ دوره"
+msgstr "شناسه دوره"
 
 #: static/js/models/course_model.js:95
 msgid "Course Name"
@@ -104,23 +103,23 @@ msgstr "مهلت تایید"
 
 #: static/js/models/course_model.js:98
 msgid "Include Honor Seat"
-msgstr "شامل صندلی افتخاری"
+msgstr "شامل صندلی Honor"
 
 #: static/js/models/course_seats/course_seat.js:28
 msgid "All course seats must have a price."
-msgstr "همۀ صندلی‌های دوره باید دارای قیمت باشند."
+msgstr "تمامی صندلی های دوره باید دارای قیمت باشند."
 
 #: static/js/models/course_seats/course_seat.js:45
 msgid "Verified seats must have an upgrade deadline."
-msgstr "صندلی‌های تاییدشده باید مهلت ارتقا داشته‌باشند."
+msgstr "صندلی های تایید شده باید مهلت ارتقا داشته باشند."
 
 #: static/js/models/course_seats/course_seat.js:53
 msgid "The upgrade deadline must occur BEFORE the verification deadline."
-msgstr "مهلت ارتقاء باید پیش از مهلت تأیید باشد."
+msgstr "مهلت ارتقاء باید قبل از مهلت تأیید انجام شود."
 
 #: static/js/models/course_seats/course_seat.js:84
 msgid "Verified"
-msgstr "تأیید شده‌است"
+msgstr "تایید شده است"
 
 #: static/js/models/course_seats/course_seat.js:86
 #: static/js/views/course_form_view.js:77
@@ -133,7 +132,7 @@ msgstr "حرفه ای"
 
 #: static/js/models/course_seats/course_seat.js:91
 msgid "Honor"
-msgstr "افتخاری"
+msgstr "افتخار و احترام"
 
 #: static/js/models/course_seats/course_seat.js:93
 msgid "Audit"
@@ -141,15 +140,15 @@ msgstr "حسابرسی"
 
 #: static/js/models/course_seats/course_seat.js:101
 msgid "Verified Certificate"
-msgstr "گواهی تاییدشده"
+msgstr "گواهی تایید شده"
 
 #: static/js/models/course_seats/course_seat.js:105
 msgid "Professional Certificate"
-msgstr "گواهینامه حرفه‌ای"
+msgstr "گواهینامه حرفه ای"
 
 #: static/js/models/course_seats/course_seat.js:108
 msgid "Honor Certificate"
-msgstr "گواهینامه افتخاری"
+msgstr "گواهی افتخار"
 
 #: static/js/models/course_seats/course_seat.js:111
 msgid "No Certificate"
@@ -157,51 +156,51 @@ msgstr "بدون گواهی"
 
 #: static/js/models/course_seats/credit_seat.js:26
 msgid "All credit seats must have a credit provider."
-msgstr "همه کرسی های اعتباری باید حاوی اعتباردهنده باشند."
+msgstr "همه کرسی های اعتباری باید دارای ارائه دهنده اعتبار باشند."
 
 #: static/js/models/course_seats/credit_seat.js:30
 msgid "Please select a valid credit provider."
-msgstr "لطفاً یک اعتباردهنده معتبر انتخاب کنید."
+msgstr "لطفاً یک ارائه دهنده اعتبار معتبر انتخاب کنید."
 
 #: static/js/models/course_seats/credit_seat.js:39
 msgid "All credit seats must designate a number of credit hours."
-msgstr "همه صندلی‌های اعتباری باید تعدادی ساعت اعتبار مشخص کنند."
+msgstr "همه صندلی های اعتباری باید تعدادی ساعت اعتبار مشخص کنند."
 
 #: static/js/models/enterprise_coupon_model.js:18
 msgid "This value must be a valid email."
-msgstr "در اینجا ایمیل معتبر وارد کنید."
+msgstr "این مقدار باید یک ایمیل معتبر باشد."
 
 #: static/js/pages/basket_page.js:27
 msgid "Problem occurred during checkout. Please contact support."
-msgstr "در هنگام تسویه حساب مشکلی رخ داد. لطفا با پشتیبانی تماس بگیرید."
+msgstr "هنگام تسویه حساب مشکلی رخ داد. لطفا با پشتیبانی تماس بگیرید."
 
 #: static/js/pages/basket_page.js:101
 msgid "This field is required"
-msgstr "پرکردن این قسمت ضروری است"
+msgstr "این فیلد الزامی است"
 
 #: static/js/pages/basket_page.js:145
 msgid "Invalid card number"
-msgstr "شماره کارت معتبر نیست"
+msgstr "شماره کارت نامعتبر است"
 
 #: static/js/pages/basket_page.js:147
 msgid "Unsupported card type"
-msgstr "این نوع کارت پشتیبانی نمی‌شود"
+msgstr "نوع کارت پشتیبانی نشده"
 
 #: static/js/pages/basket_page.js:149
 msgid "Invalid security number"
-msgstr "شماره امنیتی معتبر نیست"
+msgstr "شماره امنیتی نامعتبر است"
 
 #: static/js/pages/basket_page.js:154
 msgid "Invalid month"
-msgstr "ماه معتبر نیست"
+msgstr "ماه نامعتبر است"
 
 #: static/js/pages/basket_page.js:156
 msgid "Invalid year"
-msgstr "سال معتبر نیست"
+msgstr "سال نامعتبر"
 
 #: static/js/pages/basket_page.js:158
 msgid "Card expired"
-msgstr "کارت منقضی است"
+msgstr "کارت منقضی شده است"
 
 #: static/js/pages/basket_page.js:474
 msgid "<Choose state/province>"
@@ -219,7 +218,7 @@ msgstr "ایجاد کوپن جدید"
 #: static/js/pages/coupon_detail_page.js:13
 #: static/js/pages/enterprise_coupon_detail_page.js:13
 msgid "View Coupon"
-msgstr "مشاهدۀ کوپن"
+msgstr "مشاهده کوپن"
 
 #: static/js/pages/coupon_edit_page.js:13
 #: static/js/pages/enterprise_coupon_edit_page.js:13
@@ -232,11 +231,11 @@ msgstr "کدهای کوپن"
 
 #: static/js/pages/course_create_page.js:12
 msgid "Create New Course"
-msgstr "ایجاد دورۀ جدید"
+msgstr "ایجاد دوره جدید"
 
 #: static/js/pages/course_detail_page.js:13
 msgid "View Course"
-msgstr "مشاهدۀ دوره"
+msgstr "مشاهده دوره"
 
 #: static/js/pages/course_edit_page.js:13
 msgid "Edit Course"
@@ -244,7 +243,7 @@ msgstr "ویرایش دوره"
 
 #: static/js/pages/course_list_page.js:10
 msgid "Courses"
-msgstr "دوره‌های آموزشی"
+msgstr "دوره های آموزشی"
 
 #: static/js/pages/enterprise_coupon_list_page.js:10
 msgid "Enterprise Coupon Codes"
@@ -252,68 +251,67 @@ msgstr "کدهای کوپن سازمانی"
 
 #: static/js/pages/offer_page.js:14
 msgid "Redeem"
-msgstr "بازخرید"
+msgstr "از گرو در اوردن"
 
 #: static/js/pages/receipt_page.js:21
 msgid ""
 "Caution! Using the back button on this page may cause you to be charged "
 "again."
 msgstr ""
-"احتیاط! استفاده از دکمه بازگشت در این صفحه، ممکن است باعث کسر شارژ از شما "
-"شود."
+"احتیاط! استفاده از دکمه برگشت در این صفحه ممکن است باعث شارژ مجدد شما شود."
 
 #. Translators: Do not translate "Apple Pay".
 #: static/js/payment_processors/cybersource.js:225
 msgid ""
 "Apple Pay is not available at this time. Please try another payment method."
 msgstr ""
-"اپل پی، در حال حاضر در دسترس نیست. لطفاً روش پرداخت دیگری را امتحان کنید."
+"Apple Pay در حال حاضر در دسترس نیست. لطفاً روش پرداخت دیگری را امتحان کنید."
 
 #: static/js/payment_processors/cybersource.js:255
 msgid ""
 "An error occurred while processing your payment. You have NOT been charged. "
 "Please try again, or select another payment method."
 msgstr ""
-"در پردازش پرداخت خطایی رخ داد. مبلغی از شما کسر نشده‌است. لطفاً دوباره "
-"امتحان کنید یا روش پرداخت دیگری را برگزینید."
+"هنگام پردازش پرداخت شما خطایی روی داد. شما هزینه ای دریافت نکرده اید. لطفاً "
+"دوباره امتحان کنید یا روش پرداخت دیگری را انتخاب کنید."
 
 #: static/js/payment_processors/stripe.js:71
 msgid ""
 "An error occurred while attempting to process your payment. You have not "
 "been charged. Please check your payment details, and try again."
 msgstr ""
-"در پردازش پرداخت خطایی رخ داد. حساب کاربری شما شارژ نشده‌است. لطفاً جزئیات "
-"پرداخت خود را بررسی کرده و سپس دوباره امتحان کنید."
+"هنگام تلاش برای پردازش پرداخت شما خطایی روی داد. شما اتهامی دریافت نکرده "
+"اید. لطفاً جزئیات پرداخت خود را بررسی کنید و دوباره امتحان کنید."
 
 #: static/js/payment_processors/stripe.js:110
 msgid "An error occurred while processing your payment. Please try again."
-msgstr "در پردازش پرداخت  خطایی رخ داد. لطفا دوباره تلاش کنید."
+msgstr "هنگام پردازش پرداخت شما خطایی روی داد. لطفا دوباره تلاش کنید."
 
 #: static/js/utils/utils.js:184
 msgid "Trailing comma not allowed."
-msgstr "استفاده از کاما در انتها مجاز نیست."
+msgstr "کاما آخر مجاز نیست."
 
 #: static/js/views/coupon_detail_view.js:108
 #: static/js/views/coupon_form_view.js:62
 #: static/js/views/enterprise_coupon_form_view.js:30
 msgid "Can be used once by one customer"
-msgstr "یکبارمصرف و توسط یک مشتری قابل استفاده است"
+msgstr "قابل استفاده یکبار توسط یک مشتری"
 
 #: static/js/views/coupon_detail_view.js:110
 #: static/js/views/coupon_form_view.js:70
 #: static/js/views/enterprise_coupon_form_view.js:38
 msgid "Can be used multiple times by multiple customers"
-msgstr "چندبار مصرف و توسط چندین مشتری قابل استفاده است"
+msgstr "می تواند چندین بار توسط چندین مشتری استفاده شود"
 
 #: static/js/views/coupon_detail_view.js:112
 #: static/js/views/coupon_form_view.js:66
 #: static/js/views/enterprise_coupon_form_view.js:34
 msgid "Can be used once by multiple customers"
-msgstr "یکبارمصرف و توسط چندین مشتری قابل استفاده است"
+msgstr "قابل استفاده یکبار توسط چندین مشتری"
 
 #: static/js/views/coupon_form_view.js:51
 msgid "Enrollment Code"
-msgstr "کد ثبت‌نام"
+msgstr "کد ثبت نام"
 
 #: static/js/views/coupon_form_view.js:55
 msgid "Discount Code"
@@ -321,7 +319,7 @@ msgstr "کد تخفیف"
 
 #: static/js/views/coupon_form_view.js:787
 msgid "Save Changes"
-msgstr "ذخیرۀ تغییرات"
+msgstr "ذخیره تغییرات"
 
 #: static/js/views/coupon_form_view.js:802
 msgid "Create Coupon"
@@ -335,7 +333,7 @@ msgstr "نام"
 #: static/js/views/coupon_list_view.js:42
 #: static/js/views/enterprise_coupon_list_view.js:31
 msgid "Created"
-msgstr "ایجادشده"
+msgstr "ایجاد شده"
 
 #: static/js/views/coupon_list_view.js:49
 msgid "Custom Code"
@@ -348,7 +346,7 @@ msgstr "مشتری"
 
 #: static/js/views/coupon_list_view.js:61
 msgid "Category"
-msgstr "دسته‌بندی"
+msgstr "دسته بندی"
 
 #: static/js/views/coupon_list_view.js:67
 #: static/js/views/enterprise_coupon_list_view.js:62
@@ -358,12 +356,12 @@ msgstr "گزارش کوپن"
 #: static/js/views/coupon_list_view.js:80
 #: static/js/views/course_list_view.js:25
 msgid "Search..."
-msgstr "جستجو..."
+msgstr "جستجو کردن..."
 
 #: static/js/views/coupon_list_view.js:107
 #: static/js/views/course_list_view.js:52
 msgid "Next"
-msgstr "بعدی"
+msgstr "بعد"
 
 #: static/js/views/coupon_list_view.js:108
 #: static/js/views/course_list_view.js:53
@@ -384,7 +382,7 @@ msgstr "(فیلتر شده از _MAX_ کل کوپن)"
 #. Translators: _MENU_ is a placeholder. Do NOT translate it.
 #: static/js/views/coupon_list_view.js:118
 msgid "Display _MENU_ coupons"
-msgstr "نمایش کوپن‌های _MENU_"
+msgstr "نمایش کوپن های _MENU_"
 
 #: static/js/views/course_form_view.js:55
 msgid "Free (Audit)"
@@ -402,32 +400,31 @@ msgstr "تایید و حسابرسی"
 #: static/js/views/course_form_view.js:67
 msgid ""
 "Paid certificate track with initial verification and Verified Certificate."
-msgstr "مسیر گواهی پرداختی با تأیید اولیه و گواهی تأیید شده."
+msgstr "مسیر گواهی پولی با تأیید اولیه و گواهی تأیید شده."
 
 #: static/js/views/course_form_view.js:62
 msgid "Also includes the free audit track."
-msgstr "همچنین شامل مسیر ممیزی رایگان می‌شود."
+msgstr "همچنین شامل مسیر ممیزی رایگان است."
 
 #: static/js/views/course_form_view.js:66
 msgid "Verified Only"
-msgstr "فقط تأیید شده‌است"
+msgstr "فقط تأیید شده است"
 
 #: static/js/views/course_form_view.js:71
 msgid "Professional Education"
-msgstr "تحصیلات حرفه‌ای"
+msgstr "تحصیلات حرفه ای"
 
 #: static/js/views/course_form_view.js:72
 msgid ""
 "Paid certificate track with initial verification and Professional Education "
 "Certificate"
-msgstr "مسیر گواهی پرداختی با تأیید اولیه و گواهی آموزش حرفه‌ای"
+msgstr "مسیر گواهی پولی با تأیید اولیه و گواهی آموزش حرفه ای"
 
 #: static/js/views/course_form_view.js:78
 msgid ""
 "Paid certificate track with initial verification and Verified Certificate, "
 "and option to purchase credit"
-msgstr ""
-"مسیر گواهی پرداختی با تأیید اولیه و گواهی تأییدشده و گزینۀ خرید اعتبار"
+msgstr "مسیر گواهی پولی با تأیید اولیه و گواهی تأیید شده و گزینه خرید اعتبار"
 
 #. Translators: _START_, _END_, and _TOTAL_ are placeholders. Do NOT translate
 #. them.
@@ -443,7 +440,7 @@ msgstr "(فیلتر شده از _MAX_ کل دوره ها)"
 #. Translators: _MENU_ is a placeholder. Do NOT translate it.
 #: static/js/views/course_list_view.js:63
 msgid "Display _MENU_ courses"
-msgstr "نمایش دوره‌های _MENU_"
+msgstr "نمایش دوره های _MENU_"
 
 #: static/js/views/course_list_view.js:69
 msgid "Course"
@@ -464,11 +461,11 @@ msgstr "نوع صندلی"
 #: static/js/views/enterprise_coupon_detail_view.js:28
 #: static/js/views/enterprise_coupon_form_view.js:42
 msgid "Can be used multiple times by one customer"
-msgstr "چندبارمصرف توسط یک مشتری"
+msgstr "قابل استفاده چندین بار توسط یک مشتری"
 
 #: static/js/views/enterprise_coupon_form_view.js:280
 msgid "Create and Add More"
-msgstr "ایجاد و افزودن موارد بیشتر"
+msgstr "ایجاد و اضافه کردن بیشتر"
 
 #: static/js/views/enterprise_coupon_list_view.js:38
 msgid "Status"
@@ -480,11 +477,11 @@ msgstr "مشتری سازمانی"
 
 #: static/js/views/enterprise_coupon_list_view.js:56
 msgid "Enterprise Customer Catalog"
-msgstr "فهرست مشتریان سازمانی"
+msgstr "کاتالوگ مشتریان سازمانی"
 
 #: static/js/views/form_view.js:71
 msgid "A course with the specified ID already exists."
-msgstr "دوره‌ای با شناسۀ مشخص‌شده از قبل وجود دارد."
+msgstr "دوره ای با شناسه مشخص شده از قبل وجود دارد."
 
 #: static/js/views/form_view.js:81 static/js/views/form_view.js:174
 msgid "Error!"
@@ -492,15 +489,15 @@ msgstr "خطا!"
 
 #: static/js/views/form_view.js:127
 msgid "Saving..."
-msgstr "در حال ذخیره‌..."
+msgstr "صرفه جویی در..."
 
 #: static/js/views/form_view.js:136
 msgid "Please complete all required fields."
-msgstr "لطفا همه موارد ضروری را تکمیل کنید."
+msgstr "لطفا تمام فیلد های مورد نیاز را تکمیل کنید."
 
 #: static/js/views/form_view.js:161
 msgid "An error occurred while saving the data."
-msgstr "هنگام ذخیرۀ داده‌ها خطایی رخ داد."
+msgstr "هنگام ذخیره داده ها خطایی روی داد."
 
 #: static/js/views/offer_view.js:198
 msgid "Ellipsis"
@@ -512,11 +509,11 @@ msgstr "سوابق صفحه را بارگیری کنید "
 
 #: static/js/views/offer_view.js:212
 msgid "Load the records for the next page"
-msgstr "سوابق را برای صفحۀ بعد بارگیری کنید"
+msgstr "سوابق را برای صفحه بعد بارگیری کنید"
 
 #: static/js/views/offer_view.js:220
 msgid "Load the records for the previous page"
-msgstr "سوابق صفحۀ قبل را بارگیری کنید"
+msgstr "رکوردهای صفحه قبل را بارگیری کنید"
 
 #: static/js/views/provider_selection_view.js:33
 msgid "Select"
@@ -524,7 +521,7 @@ msgstr "انتخاب کنید"
 
 #: static/js/views/provider_selection_view.js:34
 msgid "Selected"
-msgstr "انتخاب‌شده"
+msgstr "انتخاب شد"
 
 #: static/vendor-extensions/oscar/js/order_actions.js:21
 msgid "Order %(order_number)s has been fulfilled."
@@ -536,7 +533,7 @@ msgstr "سفارش انجام نشد %(order_number)s : %(error)s"
 
 #: static/vendor-extensions/oscar/js/refund_list.js:24
 msgid "Refund #%(refund_id)s has been processed."
-msgstr "بازپرداخت شماره %(refund_id)s پردازش شده‌است."
+msgstr "بازپرداخت شماره %(refund_id)s پردازش شده است."
 
 #: static/vendor-extensions/oscar/js/refund_list.js:33
 msgid "Error"

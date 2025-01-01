@@ -5,17 +5,16 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
-# Brian Smith, 2023
-# Sarina Canelake <sarina@tcril.org>, 2023
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-20 00:31+0000\n"
-"PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"POT-Creation-Date: 2024-05-09 00:31+0000\n"
+"PO-Revision-Date: 2024-05-09 18:48+0000\n"
+"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,19 +96,19 @@ msgstr "خطأ"
 
 #: admin.py:407
 msgid "Onboarding Missing"
-msgstr "عملية مفقودة"
+msgstr "التسجيل مفقود"
 
 #: admin.py:408
 msgid "Onboarding Failed"
-msgstr "فشل العملية"
+msgstr "فشل التسجيل"
 
 #: admin.py:409
 msgid "Onboarding Pending"
-msgstr "العملية معلقة"
+msgstr "التسجيل معلَّق"
 
 #: admin.py:410
 msgid "Onboarding Expired"
-msgstr "العملية منتهية الصلاحية"
+msgstr "التسجيل انتهت صلاحيته"
 
 #: api.py:822 views.py:1276
 #, python-brace-format
@@ -123,7 +122,7 @@ msgstr "دورتك التعليمية"
 #: api.py:1741
 #, python-brace-format
 msgid "Proctoring Results For {course_name} {exam_name}"
-msgstr "مراقبة النتائج لـ {course_name} {exam_name}"
+msgstr "نتائج الامتحان المُراقَب {exam_name} لمساق {course_name}"
 
 #: api.py:2234
 msgid "Taking As Proctored Exam"
@@ -171,7 +170,7 @@ msgstr "امتحان موقوت"
 
 #: api.py:2884
 msgid "Onboarding status question"
-msgstr "حالة الالتحاق بالمؤسسة "
+msgstr "سؤال حالة التسجيل"
 
 #: models.py:391
 msgid "Taking as Proctored"
@@ -183,7 +182,7 @@ msgstr "هي محاولة على سبيل المثال"
 
 #: models.py:413
 msgid "Is Resumable"
-msgstr "قابل للاستئناف"
+msgstr "يُمكن استئنافُه"
 
 #: models.py:418
 msgid "Ready to Resume"
@@ -191,7 +190,7 @@ msgstr "جاهز للاستئناف"
 
 #: models.py:421
 msgid "Resumed"
-msgstr "ابدأ من جديد"
+msgstr "استُئنِف"
 
 #: models.py:523
 msgid "Additional Time (minutes)"
@@ -208,7 +207,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"ستظهر النتيجة بعد <strong id=\"wait_deadline\">التحميل...</strong>"
+"        ستظهر النتيجة بعد <strong id=\"wait_deadline\"> يجري التحميل... </strong>\n"
+"    "
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:5
 #: templates/emails/proctoring_attempt_submitted_email.html:5
@@ -219,7 +219,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"مرحبًا،\n"
+"        مرحبا،\n"
 "    "
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:12
@@ -232,9 +232,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"تمت مراجعة الاختبار الخاضع للمراقبة &quot; %(exam_name)s &quot; في\n"
+"تمت مراجعة اختبارك المُراقَب &quot; %(exam_name)s &quot; في\n"
 " <a href=\"%(course_url)s\">%(course_name)s</a> \n"
-"واستوفيت جميع متطلبات المراقبة."
+"واستوفيت جميع متطلبات الاختبار المُراقَب."
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:21
 #, python-format
@@ -264,7 +264,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"تم إرسال الاختبار المراقب &quot; %(exam_name)s &quot; في <a href=\"%(course_url)s\">%(course_name)s</a> بنجاح وستتم مراجعته الآن للتأكد من اتباع جميع قواعد الاختبار. من المفترض أن تتلقى رسالة بريد إلكتروني تتضمن حالة الاختبار الخاص بك في غضون 5 أيام عمل."
+"تتم إرسال اختبارك المراقب &quot; %(exam_name)s &quot; في <a href=\"%(course_url)s\">%(course_name)s</a> بنجاح وستتم مراجعته الآن للتأكد من اتباع جميع قواعد الاختبار. يُفترَض أن تتلقى رسالة بريد إلكتروني تتضمن حالة اختبارك في غضون 5 أيام عمل."
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:12
 #, python-format
@@ -280,7 +280,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"تمت مراجعة الاختبار الخاضع للمراقبة &quot; %(exam_name)s &quot; في <a href=\"%(course_url)s\">%(course_name)s</a> وحدد فريق الدورة انتهاكًا واحدًا أو أكثر لقواعد الاختبار الخاضع للمراقبة. تتضمن أمثلة المشكلات التي قد تؤدي إلى انتهاك القواعد تصفح الإنترنت، أو عدم وضوح صورة الهوية أو فقدانها، أو استخدام الهاتف، أو الحصول على مساعدة من شخص آخر. نتيجة للمشكلات التي تم تحديدها، لم تتمكن من تلبية متطلبات الاختبار المراقب بنجاح."
+"تمت مراجعة الاختبار المُراقَب &quot; %(exam_name)s &quot; في <a href=\"%(course_url)s\">%(course_name)s</a> ووجد فريق المساق انتهاكًا واحدًا أو أكثر لقواعد الاختبار المُراقَب. تتضمن أمثلة المشكلات التي قد تؤدي إلى انتهاك القواعد تصفح الإنترنت، أو عدم وضوح صورة الهوية أو فقدانها، أو استخدام الهاتف، أو الحصول على مساعدة من شخص آخر. نتيجة للمشكلات التي تم تحديدها، لم تستوفِ متطلبات الاختبار المراقب بنجاح."
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:25
 #, python-format
@@ -294,7 +294,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"للاستئناف على نتائج الاختبار المراقب، يرجى التواصل مع أي معلومات ذات صلة حول اختبارك على <a href=\"%(contact_url)s\">%(contact_url_text)s</a> ."
+"للاستئناف على نتائج الاختبار المراقب، يرجى التواصل مع أي معلومات ذذات صلة حول اختبارك على \n"
+"\n"
+"<a href=\"%(contact_url)s\">\n"
+"%(contact_url_text)s\n"
+"</a>.\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:5
 msgid ""
@@ -303,7 +308,8 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"مراقبة امتحان الإعداد"
+"    مُراقبة امتحان القبول\n"
+"  "
 
 #: templates/onboarding_exam/entrance.html:12
 msgid ""
@@ -312,7 +318,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لماذا  يعد هذا مهم بالنسبة لك:"
+"لماذا  يعد هذا هامًّا لك:"
 
 #: templates/onboarding_exam/entrance.html:18
 msgid ""
@@ -321,7 +327,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"حدد هويتك باستخدام نظام المراقبة لإجراء اختبار مراقب"
+"        أنشئ هويّتك في نظام المُراقبة لتأخذ امتحاناً مُراقَباً\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:23
 msgid ""
@@ -330,7 +337,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"أنشئ ملف التعريف الخاص بك للوصول بشكل أسرع في المستقبل"
+"        أنشئ ملف تسجيلك لوصول أسرع في المستقبَل\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:28
 msgid ""
@@ -339,7 +347,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"تدرب على إجراء اختبار مراقب"
+"        تدرب على إجراء اختبار مراقب\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:34
 #, python-format
@@ -349,7 +358,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"يتم توفير المراقبة لهذه الدورة عبر %(provider_name)s . يمكن أن تستغرق مراجعة الإعداد، بما في ذلك التحقق من الهوية، أكثر من يومي عمل."
+"       يتم توفير المراقبة لهذا المساق عبر %(provider_name)s . يمكن أن تستغرق مراجعة التسجيل، بما في ذلك التحقق من الهوية، أكثر من يومي عمل.\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:40
 #, python-format
@@ -361,9 +371,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"بمجرد مراجعة ملفك الشخصي، ستتلقى رسالة بريد إلكتروني تحتوي على نتائج المراجعة. سيأتي البريد الإلكتروني من \n"
-"<a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a> . \n"
-"تأكد من إضافة هذا البريد الإلكتروني إلى فلتر البريد الوارد الخاص بك."
+"بمجرد مراجعة ملفك الشخصي، ستتلقى رسالة بريد إلكتروني تحوي نتائج المراجعة. ستتلقى رسالة بريد إلكتروني من \n"
+"        <a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a>.\n"
+"تأكد من إضافة هذا البريد الإلكتروني إلى مُرشِّح البريد الوارد لَدَيك.\n"
+"      "
 
 #: templates/onboarding_exam/entrance.html:49
 #, python-format
@@ -379,7 +390,7 @@ msgstr ""
 
 #: templates/onboarding_exam/entrance.html:58
 msgid "Continue to onboarding"
-msgstr "الاستمرار في الإعداد"
+msgstr "استمر في التسجيل"
 
 #: templates/onboarding_exam/entrance.html:62
 msgid ""
@@ -388,7 +399,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"سيتم إرشادك من خلال إعداد برنامج المراقبة عبر الإنترنت والتحقق من الهوية."
+"سيتم إرشادك في إعداد برنامج المراقبة عبر الإنترنت والتحقق من الهوية."
 
 #: templates/onboarding_exam/error.html:4
 msgid ""
@@ -407,7 +418,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"انتهت جلسة المراقبة الخاصة بك قبل إكمال اختبار الإعداد هذا. يجب عليك إعادة محاولة هذا الاختبار."
+"انتهت جلسة المراقبة الخاصة بك قبل إتمامك امتحان القبول. يجب أن تعيد امتحان القبول."
 
 #: templates/onboarding_exam/ready_to_submit.html:6
 #, python-format
@@ -417,7 +428,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"أنت ستجري &quot; %(exam_display_name)s &quot; كاختبار تأهيلي. يجب عليك النقر فوق &quot;نعم، إنهاء الاختبار الخاضع للمراقبة&quot; وإرسال جلسة المراقبة الخاصة بك لإكمال عملية الإعداد."
+"أنت تُجري اختبار القبول &quot; %(exam_display_name)s &quot;. يجب عليك النقر فوق &quot;نعم، إنهاء الاختبار الخاضع للمراقبة&quot; وإرسال الجلسة المراقبة الخاصة بك لإتمام التسجيل."
 
 #: templates/onboarding_exam/rejected.html:5
 msgid ""
@@ -442,20 +453,20 @@ msgstr ""
 "يرجى الاتصال بـ\n"
 " <a href=\"mailto:%(integration_specific_email)s\">\n"
 "%(integration_specific_email)s\n"
-"</a> إذا كانت لديك أسئلة. يمكنك إعادة إجراء هذا الاختبار الإعدادي من خلال النقر على \"إعادة محاولة الاختبار\"."
+"</a> إذا كانت لديك أسئلة. يمكنك إعادة إجراء امتحان القبول هذا من خلال النقر على \"إعادة الاختبار\"."
 
 #: templates/onboarding_exam/rejected.html:20
 #: templates/onboarding_exam/submitted.html:47
 #: templates/practice_exam/error.html:29
 #: templates/practice_exam/submitted.html:18
 msgid "Retry my exam"
-msgstr "أعادة محاولة الامتحان الخاص بي"
+msgstr "إعادة الاختبار"
 
 #: templates/onboarding_exam/rejected.html:21
 #: templates/practice_exam/error.html:30
 #: templates/practice_exam/submitted.html:19
 msgid "Resetting Onboarding Exam"
-msgstr "إعادة تعيين الامتحان التأهيلى"
+msgstr "إعادة تعيين امتحان القبول"
 
 #: templates/onboarding_exam/submitted.html:4
 msgid ""
@@ -476,8 +487,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"إذا لم يكن لديك ملف تعريف تأهيلى مع النظام،\n"
-" فسوف تقوم  Verificient بمراجعة طلبك وإنشاء ملف تعريف تأهيل لمنحك حق الوصول إلى الاختبارات المراقبة. يمكن أن تستغرق مراجعة الملف الشخصي للتأهيل ما يزيد عن يومي عمل."
+"إذا لم يكن لديك ملف تسجيل في النظام،\n"
+" فسوف تُراجع Verificient بطلبك وتُنشئ ملف تسجيل لك لمنحك حق الوصول إلى الاختبارات المراقبة. يمكن أن تستغرق مراجعة ملف التسجيل يومي عمل أو أكثر."
 
 #: templates/onboarding_exam/submitted.html:19
 #, python-format
@@ -492,11 +503,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"بمجرد مراجعة ملفك الشخصي، ستتلقى رسالة بريد إلكتروني تحتوي على نتائج المراجعة. سيأتي البريد الإلكتروني من \n"
+"بمجرد مراجعة ملفك الشخصي، ستتلقى رسالة بريد إلكتروني تحوي نتائج المراجعة. ستأتي رسالة البريد الإلكتروني من \n"
 "<a href=\"mailto:%(learner_notification_from_email)s\">\n"
 "%(learner_notification_from_email)s\n"
 "</a> ، \n"
-"لذا تأكد من إضافة هذا البريد الإلكتروني إلى مرشح البريد الوارد الخاص بك."
+"لذا تأكد من إضافة عنوان البريد الإلكتروني هذا إلى مرشح البريد الوارد الخاص بك."
 
 #: templates/onboarding_exam/submitted.html:29
 msgid ""
@@ -507,7 +518,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"إذا كان لديك بالفعل ملف تعريف تأهيلي تمت الموافقة عليه من خلال دورة تدريبية أخرى، فلن يتم مراجعة هذا التسجيل. يمكنك إعادة محاولة هذا الاختبار في أي وقت للتحقق من أن الإعدادات الخاصة بك لا تزال تلبي متطلبات المراقبة."
+"إذا كان لديك بالفعل ملف تسجيل تمت الموافقة عليه من خلال مساق آخر، فلن يتم مراجعة هذا التسجيل. يمكنك إعادة هذا الاختبار في أي وقت للتحقق من أن الإعدادات الخاصة بك لا تزال تلبي متطلبات المراقبة."
 
 #: templates/onboarding_exam/submitted.html:36
 msgid ""
@@ -517,11 +528,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"إذا ارتكبت خطأً في هذا التسجيل، فيمكنك إعادة تشغيل عملية الإعداد. ستتم إزالة تسجيلك الحالي ولن يتلقى مراجعة."
+"إذا ارتكبت خطأً في هذا التسجيل، فيمكنك إعادة التسجيل. ستتم إزالة تسجيلك الحالي ولن يتلقى مراجعة."
 
 #: templates/onboarding_exam/submitted.html:41
 msgid "I understand and want to reset this onboarding exam."
-msgstr "أنا أفهم وأريد إعادة تعيين هذا الاختبار الإعدادي."
+msgstr "أعي ذلك، وأرغب في إعادة تعيين امتحان القبول هذا."
 
 #: templates/onboarding_exam/submitted.html:53
 #: templates/onboarding_exam/verified.html:16
@@ -546,7 +557,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"تمت مراجعة ملف التعريف الخاص بك بنجاح"
+"تمت مراجعة ملف تسجيلك بنجاح"
 
 #: templates/onboarding_exam/verified.html:11
 msgid ""
@@ -555,7 +566,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لقد تم إنشاء ملف التعريف الخاص بك، وأنت على استعداد لإجراء الاختبارات المراقبة في هذه الدورة."
+"لقد تم إنشاء ملفك، وأنت جاهز لإجراء الاختبارات المراقبة في هذا المساق."
 
 #: templates/practice_exam/entrance.html:5
 msgid ""
@@ -564,7 +575,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"حاول إجراء اختبار مراقب"
+"حاول إجراء اختبار مراقب\n"
+"   "
 
 #: templates/practice_exam/entrance.html:12
 msgid ""
@@ -574,7 +586,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"تعرف على كيفية مراقبة الاختبارات الحقيقية لاحقًا في الدورة التدريبية. هذا الاختبار التدريبي ليس له أي تأثير على درجتك في الدورة."
+"تعرف على طريقة عمل مراقبة الاختبارات لتستعد للاختبارات المراقبة الحقيقية لاحقاً في هذا المساق. هذا الاختبار التدريبي ليس له أي أثر على درجتك في المساق."
 
 #: templates/practice_exam/entrance.html:20
 msgid "Continue to my practice exam"
@@ -587,7 +599,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"سيتم إرشادك خلال خطوات إعداد برنامج المراقبة عبر الإنترنت والتحقق من هويتك."
+"سيجري إرشادك في خطوات إعداد برنامج المراقبة عبر الإنترنت والتحقق من هويتك.\n"
+"       "
 
 #: templates/practice_exam/error.html:5
 msgid ""
@@ -596,7 +609,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"كانت هناك مشكلة في جلسة المراقبة التدريبية الخاصة بك"
+"كانت هناك مشكلة في جلسة المراقبة التدريبية الخاصة بك\n"
+"     "
 
 #: templates/practice_exam/error.html:13
 msgid ""
@@ -615,7 +629,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"انتهت جلسة المراقبة الخاصة بك قبل إكمال هذا الاختبار التدريبي. يمكنك إعادة محاولة هذا الاختبار التدريبي إذا واجهت مشاكل في إعداد برنامج المراقبة عبر الإنترنت."
+"انتهت جلسة المراقبة الخاصة بك قبل إتمام هذا الاختبار التدريبي. يمكنك إعادة هذا الاختبار التدريبي إذا واجهت مشاكل في إعداد برنامج المراقبة عبر الإنترنت."
 
 #: templates/practice_exam/submitted.html:5
 msgid ""
@@ -624,7 +638,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"لقد قدمت هذا الاختبار التدريبي الخاضع للمراقبة"
+"لقد قدمت هذا الاختبار التدريبي المُراقَب\n"
+"     "
 
 #: templates/practice_exam/submitted.html:13
 msgid ""
@@ -634,7 +649,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"الامتحانات التجريبية لا تؤثر على درجتك. لقد أكملت هذا الاختبار التدريبي ويمكنك مواصلة العمل في الدورة التدريبية الخاصة بك."
+"الامتحانات التدريبية لا تؤثر على درجتك. لقد أتممت هذا الاختبار التدريبي ويمكنك الاستمرار في مساقك."
 
 #: templates/proctored_exam/confirm-decline.html:5
 msgid ""
@@ -652,7 +667,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"إذا أجريت هذا الاختبار دون مراقبة، فلن تكون مؤهلاً للحصول على رصيد الدورة التدريبية أو بيانات اعتماد MicroMasters إذا كان أي منهما ينطبق على هذه الدورة التدريبية."
+"إذا أجريت هذا الاختبار دون مراقبة، فلن تكون مؤهلاً للحصول على ساعات معتمدة أو MicroMasters إذا كان أي منهما متاحاً لهذا المساق."
 
 #: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
@@ -681,12 +696,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لكي تكون مؤهلاً للحصول على رصيد أو بيانات اعتماد البرنامج المرتبطة بهذه الدورة، يجب عليك اجتياز المراجعة المراقبة لهذا الاختبار."
+"لكي تكون مؤهلاً للحصول على ساعات معتمدة أو بيانات اعتماد البرنامج المرتبطة بهذا المساق، يجب عليك اجتياز المراجعة المراقبة لهذا الاختبار."
 
 #: templates/proctored_exam/entrance.html:15
 #: templates/proctored_exam/ready_to_resume.html:19
 msgid "Continue to my proctored exam."
-msgstr "الاستمرار في الامتحان المراقب."
+msgstr "تقدم إلى الامتحان المراقب."
 
 #: templates/proctored_exam/entrance.html:18
 #: templates/proctored_exam/ready_to_resume.html:22
@@ -696,7 +711,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"سيتم إرشادك خلال خطوات إعداد برنامج المراقبة عبر الإنترنت والتحقق من هويتك.</br>"
+"سيجري إرشادك في خطوات إعداد برنامج المراقبة عبر الإنترنت والتحقق من هويتك.</br>\n"
+"     "
 
 #: templates/proctored_exam/error.html:4
 #: templates/proctored_exam/error_wrong_browser.html:4
@@ -718,7 +734,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"لقد حدث خطأ في النظام أثناء الاختبار الخاضع للمراقبة. يرجى التواصل مع فريق الدورة التدريبية الخاصة بك على <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s</a> للحصول على المساعدة، والعودة إلى الاختبار بمجرد تلقي المزيد من التعليمات."
+"لقد حدث خطأ في النظام أثناء الاختبار الخاضع للمراقبة. يرجى التواصل مع فريق مساقك على <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s</a> للحصول على المساعدة، و عُد إلى الاختبار عندما تتلقى تعليمات إضافية."
 
 #: templates/proctored_exam/error.html:17
 #, python-format
@@ -730,7 +746,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"لقد حدث خطأ في النظام أثناء الاختبار الخاضع للمراقبة. يرجى التواصل مع <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">فريق الدعم %(platform_name)s</a> للحصول على المساعدة، والعودة إلى الاختبار بمجرد تلقي المزيد من التعليمات."
+"لقد حدث خطأ في النظام أثناء الاختبار الخاضع للمراقبة. يرجى التواصل مع <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">فريق الدعم %(platform_name)s</a> للحصول على المساعدة، ثم العودة إلى الاختبار عندما تتلقى تعليمات إضافية."
 
 #: templates/proctored_exam/error_modal.html:7
 msgid "Close"
@@ -745,7 +761,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لا يمكن الاطلاع على محتوى هذا الاختبار إلا من خلال تطبيق RPNow. إذا لم تكمل اختبارك بعد، فيرجى العودة إلى تطبيق RPNow للمتابعة."
+"لا يمكن الاطلاع على محتوى هذا الاختبار إلا من خلال تطبيق RPNow. إذا لم تكن أتممت اختبارك بعد، فتُرجى العودة إلى تطبيق RPNow للمتابعة."
 
 #: templates/proctored_exam/error_wrong_browser.html:17
 msgid ""
@@ -754,11 +770,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"وبدلاً من ذلك، يمكنك إنهاء الامتحان الخاص بك."
+"وبدلاً من ذلك، يمكنك إنهاء اختبارك."
 
 #: templates/proctored_exam/error_wrong_browser.html:22
 msgid "End My Exam"
-msgstr "أنهي امتحاني"
+msgstr "أنهِ امتحاني"
 
 #: templates/proctored_exam/expired.html:4 templates/timed_exam/expired.html:4
 msgid ""
@@ -785,7 +801,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لم تستوفي متطلبات إجراء هذا الاختبار مع المراقبة."
+"لم تستوفِ متطلبات إجراء هذا الاختبار مع المراقبة."
 
 #: templates/proctored_exam/failed-prerequisites.html:14
 msgid ""
@@ -831,7 +847,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لم تقم بتفعيل حسابك."
+"لم تُفَعِّل حسابك."
 
 #: templates/proctored_exam/inactive_account.html:10
 #, python-format
@@ -842,7 +858,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لم يتم تفعيل حسابك %(platform_name)s بعد. لإجراء الاختبار المراقب، يتعين عليك تنشيط حسابك."
+"لم يتم تفعيل حسابك %(platform_name)s بعد. لإجراء الاختبار المراقب، يجب عليك تفعيل حسابك."
 
 #: templates/proctored_exam/inactive_account.html:16
 #, python-format
@@ -853,7 +869,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"يرجى التحقق من مجلدات البريد الوارد والبريد العشوائي الخاصة ببريدك الإلكتروني المسجل بحثًا عن رسالة تنشيط عبر البريد الإلكتروني من %(platform_name)s ."
+"يرجى التحقق من مجلدات البريد الوارد والبريد العشوائي في بريدك الإلكتروني المسجل بحثًا عن رسالة تفعيل عبر البريد الإلكتروني من %(platform_name)s ."
 
 #: templates/proctored_exam/inactive_account.html:21
 #, python-format
@@ -864,7 +880,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"إذا لم تتمكن من العثور على هذا البريد الإلكتروني، فيمكنك <a href=\"%(reset_link)s\" target=\"_blank\">إعادة تعيين كلمة المرور الخاصة بك</a> لتنشيط حسابك."
+"إذا لم تتمكن من العثور على هذا البريد الإلكتروني، فيمكنك <a href=\"%(reset_link)s\" target=\"_blank\">إعادة تعيين كلمة مرورك</a> لتفعيل حسابك."
 
 #: templates/proctored_exam/inactive_account.html:26
 msgid ""
@@ -873,7 +889,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"إذا لم تتمكن من العثور على هذا البريد الإلكتروني، فيمكنك إعادة تعيين كلمة المرور الخاصة بك لتنشيط حسابك."
+"إذا لم تتمكن من العثور على هذا البريد الإلكتروني، فيمكنك إعادة تعيين كلمة مرورك لتفعيل حسابك."
 
 #: templates/proctored_exam/inactive_account.html:32
 #, python-format
@@ -893,7 +909,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"قم بإعداد وبدء الامتحان المراقب الخاص بك"
+"      قم بإعداد وبدء امتحانك المُراقَب\n"
+"    "
 
 #: templates/proctored_exam/instructions.html:12
 msgid ""
@@ -906,7 +923,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"ملحوظة: كجزء من إعداد الاختبار المراقب، سيُطلب منك التحقق من هويتك. قبل أن تبدأ، تأكد من أنك تستخدم جهاز كمبيوتر مزودًا بكاميرا ويب، وأن لديك نموذجًا صالحًا لإثبات الهوية يحمل صورة مثل رخصة القيادة أو جواز السفر."
+"ملحوظة: كجزء من إعداد الاختبار المراقب، سيُطلب منك التحقق من هويتك. قبل أن تبدأ، تأكد من أنك تستخدم جهاز حاسوب مزودًا بكاميرا ويب، وأن لديك وثيقة صالحة لإثبات الهوية تحمل صورة، كرخصة القيادة أو جواز السفر."
 
 #: templates/proctored_exam/instructions.html:27
 #, python-format
@@ -916,7 +933,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"إذا كانت لديك مشكلات تتعلق بالمراقبة، فيمكنك الاتصال بالدعم الفني لـ %(provider_name)s عن طريق إرسال بريد إلكتروني إلى %(provider_tech_support_email)s أو عن طريق الاتصال %(provider_tech_support_phone)s ."
+"إذا كانت لديك مشكلات تتعلق بالمراقبة، فيمكنك الاتصال بالدعم الفني لـ %(provider_name)s عبر البريد الإبكتروني على %(provider_tech_support_email)s أو عن طريق الاتصال بالرقم %(provider_tech_support_phone)s ."
 
 #: templates/proctored_exam/instructions.html:33
 #: templates/proctored_exam/instructions.html:78
@@ -925,7 +942,7 @@ msgstr "بدء فحص النظام"
 
 #: templates/proctored_exam/instructions.html:36
 msgid "Start Exam"
-msgstr "بدء الامتحان"
+msgstr "ابدأ الامتحان"
 
 #: templates/proctored_exam/instructions.html:40
 msgid ""
@@ -974,7 +991,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"ابدأ فحص النظام الخاص بك الآن. سيتم فتح نافذة جديدة لهذه الخطوة وسوف تقوم بالتحقق من هويتك."
+"ابدأ فحص نظامك الآن. سيتم فتح نافذة جديدة لهذه الخطوة وسوف تُجري التحقق من هويتك."
 
 #: templates/proctored_exam/instructions.html:69
 msgid ""
@@ -987,7 +1004,7 @@ msgstr ""
 
 #: templates/proctored_exam/instructions.html:74
 msgid "Have a computer with a functioning webcam"
-msgstr "لديك جهاز كمبيوتر مزود بكاميرا ويب فعالة"
+msgstr "لديك جهاز حاسوب مزود بكاميرا ويب تعمل"
 
 #: templates/proctored_exam/instructions.html:75
 msgid "Have your valid photo ID (e.g. driver's license or passport) ready"
@@ -1011,7 +1028,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"لأسباب أمنية وسلامة الامتحان، نطلب منك تسجيل الدخول إلى حساب edX الخاص بك. ثم سنوجهك إلى تجربة مراقبة RPNow."
+"لأسباب أمنية ولسلامة الامتحان، نطلب منك تسجيل الدخول إلى حساب edX الخاص بك، ثم سنوجهك إلى تجربة مراقبة RPNow."
 
 #: templates/proctored_exam/instructions.html:100
 #: templates/proctored_exam/proctoring_opt_out_button.html:5
@@ -1025,7 +1042,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"يجب عليك إكمال اختبار الإعداد قبل إجراء هذا الاختبار المراقب"
+"يجب عليك إتمام اختبار التسجيل قبل إجراء هذا الاختبار المراقب"
 
 #: templates/proctored_exam/onboarding_error.html:11
 msgid ""
@@ -1034,12 +1051,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"يرجى إكمال اختبار الإعداد قبل محاولة هذا الاختبار."
+"يرجى إتمام اختبار الإعداد قبل بدء هذا الاختبار."
 
 #: templates/proctored_exam/onboarding_error.html:17
 #: templates/proctored_exam/onboarding_error.html:32
 msgid "Navigate to onboarding exam"
-msgstr "انتقل إلى الامتحان الإعدادي"
+msgstr "انتقل إلى امتحان القبول"
 
 #: templates/proctored_exam/onboarding_error.html:21
 msgid ""
