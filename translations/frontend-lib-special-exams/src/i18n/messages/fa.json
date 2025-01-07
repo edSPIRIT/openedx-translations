@@ -110,7 +110,7 @@
   "exam.startExamInstructions.title": "بخش فرعی یک امتحان زمان بندی شده است ( {examDuration} )",
   "exam.startExamInstructions.text1": "این آزمون دارای محدودیت زمانی مرتبط با آن است.",
   "exam.startExamInstructions.text2": "برای قبولی در این آزمون باید مشکلات را در زمان مقرر تکمیل کنید.",
-  "exam.startExamInstructions.text3": "پس از انتخاب &quot;من برای شروع این امتحان زمان بندی شده آماده هستم&quot;، {examDuration} برای تکمیل و ارسال امتحان خواهید داشت.",
+  "exam.startExamInstructions.text3": "پس از انتخاب \" من برای شروع این امتحان زمان بندی شده آماده هستم\" {examDuration} برای تکمیل و ارسال امتحان خواهید داشت.",
   "exam.submitExamInstructions.title": "آیا مطمئن هستید که می خواهید امتحان زمان بندی شده خود را ارسال کنید؟",
   "exam.submitExamInstructions.warningText": "قبل از ارسال امتحان، مطمئن شوید که برای هر مشکل «ارسال» را انتخاب کرده اید.",
   "exam.submitExamInstructions.text": "پس از ارسال امتحان، امتحان شما نمره گذاری می شود.",

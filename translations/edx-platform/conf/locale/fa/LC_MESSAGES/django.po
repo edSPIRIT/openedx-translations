@@ -26,6 +26,7 @@
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Eden Huthmacher, 2024
 # SeyedMahdi Saeid <saeid@edspirit.com>, 2024
+# HeliaEnayati, 2025
 # 
 #, fuzzy
 msgid ""
@@ -34,7 +35,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: SeyedMahdi Saeid <saeid@edspirit.com>, 2024\n"
+"Last-Translator: HeliaEnayati, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -217,7 +218,7 @@ msgstr "به روز رسانی یا شبیه سازی مخزن git ممکن نی
 
 #: cms/djangoapps/contentstore/git_export_utils.py:46
 msgid "Unable to export course to xml."
-msgstr "امکان صادر کردن دوره به xml وجود ندارد."
+msgstr "امکان خروجی گرفتن دوره به xml وجود ندارد."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:47
 msgid "Unable to configure git username and password"
@@ -429,7 +430,7 @@ msgstr "در حال آپلود"
 #. processing
 #: cms/djangoapps/contentstore/video_storage_handlers.py:120
 msgid "In Progress"
-msgstr "در حال پیش رفت"
+msgstr "در حال پیشرفت"
 
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
@@ -4214,7 +4215,7 @@ msgstr "درصد دوره های مجاز به استفاده از edx-financial
 #: lms/templates/peer_grading/peer_grading.html:41
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:30
 msgid "Progress"
-msgstr "پیش رفتن"
+msgstr "پیشرفت"
 
 #: lms/djangoapps/courseware/plugins.py:28
 msgid "Keep learners engaged and on track throughout the course."
@@ -7921,7 +7922,7 @@ msgstr "وضعیت وظیفه واردات بلوک."
 
 #: openedx/core/djangoapps/content_libraries/models.py:274
 msgid "progress"
-msgstr "پیش رفتن"
+msgstr "پیشرفت"
 
 #: openedx/core/djangoapps/content_libraries/models.py:275
 msgid "A float from 0.0 to 1.0 representing the task progress."
@@ -9580,9 +9581,7 @@ msgstr "مقدار &quot;{preference_value}&quot; انتخاب منطقه زما
 #: openedx/core/djangoapps/user_api/preferences/api.py:451
 #, python-brace-format
 msgid "Save failed for user preference '{key}' with value '{value}'."
-msgstr ""
-"ذخیره برای اولویت کاربر &quot;{key}&quot; با مقدار &quot;{value}&quot; انجام"
-" نشد."
+msgstr "ذخیره برای اولویت کاربر \"{key}\" با مقدار \"{value}\" انجام نشد."
 
 #: openedx/core/djangoapps/user_api/preferences/views.py:118
 msgid "No data provided for user preference update"
@@ -11355,7 +11354,7 @@ msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
 msgstr ""
 "پاسخ‌های شما قبلاً ذخیره شده بود. برای نمره دادن به آنها روی "
-"&quot;{button_name}&quot; کلیک کنید."
+"\"{button_name}\" کلیک کنید."
 
 #: xmodule/capa_block.py:1370
 #, python-brace-format
@@ -11446,7 +11445,7 @@ msgid ""
 "them."
 msgstr ""
 "پاسخ های شما ذخیره شده اند اما درجه بندی نشده اند. برای نمره دادن به آنها "
-"روی &quot;{button_name}&quot; کلیک کنید."
+"روی\" {button_name}\" کلیک کنید."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
@@ -16138,15 +16137,15 @@ msgstr "بازگشت به داشبورد"
 
 #: cms/templates/export.html:22 cms/templates/export.html:46
 msgid "Library Export"
-msgstr "صادرات کتابخانه"
+msgstr "خروجی گرفتن کتابخانه"
 
 #: cms/templates/export.html:24 cms/templates/export.html:48
 msgid "Course Export"
-msgstr "صادرات دوره"
+msgstr "خروجی گرفتن دوره"
 
 #: cms/templates/export.html:60
 msgid "About Exporting Libraries"
-msgstr "درباره صادرات کتابخانه ها"
+msgstr "درباره خروجی گرفتن کتابخانه ها"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:63
@@ -16163,7 +16162,7 @@ msgstr ""
 
 #: cms/templates/export.html:68
 msgid "About Exporting Courses"
-msgstr "درباره صادرات دوره ها"
+msgstr "درباره خروجی گرفتن دوره ها"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:71
@@ -16194,27 +16193,27 @@ msgstr ""
 
 #: cms/templates/export.html:85
 msgid "Export My Library Content"
-msgstr "محتوای کتابخانه من را صادر کنید"
+msgstr "محتوای کتابخانه من را خروجی بگرید"
 
 #: cms/templates/export.html:87
 msgid "Export My Course Content"
-msgstr "محتوای دوره من را صادر کنید"
+msgstr "محتوای دوره من را خروجی بگرید"
 
 #: cms/templates/export.html:96
 msgid "Export Library Content"
-msgstr "صادرات محتوای کتابخانه"
+msgstr "خروجی گرفتن محتوای کتابخانه"
 
 #: cms/templates/export.html:98
 msgid "Export Course Content"
-msgstr "صادرات محتوای دوره"
+msgstr "خروجی گرفتن محتوای دوره"
 
 #: cms/templates/export.html:108
 msgid "Library Export Status"
-msgstr "وضعیت صادرات کتابخانه"
+msgstr "وضعیت خروجی گرفتن کتابخانه"
 
 #: cms/templates/export.html:110
 msgid "Course Export Status"
-msgstr "وضعیت صادرات دوره"
+msgstr "وضعیت خروجی گرفتن دوره"
 
 #: cms/templates/export.html:122
 msgid "Preparing"
@@ -16222,11 +16221,11 @@ msgstr "آماده كردن"
 
 #: cms/templates/export.html:126
 msgid "Preparing to start the export"
-msgstr "آماده شدن برای شروع صادرات"
+msgstr "آماده شدن برای شروع خروجی گرفتن"
 
 #: cms/templates/export.html:137
 msgid "Exporting"
-msgstr "صادرات"
+msgstr "در حال خروجی گرفتن"
 
 #: cms/templates/export.html:138
 msgid ""
@@ -16458,11 +16457,11 @@ msgstr ""
 
 #: cms/templates/export_git.html:53
 msgid "Export Failed"
-msgstr "صادرات انجام نشد"
+msgstr "خروجی گرفتن انجام نشد"
 
 #: cms/templates/export_git.html:55
 msgid "Export Succeeded"
-msgstr "صادرات با موفقیت انجام شد"
+msgstr "خروجی گرفتن با موفقیت انجام شد"
 
 #: cms/templates/export_git.html:63
 msgid "Your course:"
@@ -18819,7 +18818,7 @@ msgstr "ویرایش اعلامیه"
 #: lms/templates/problem.html:37 lms/templates/problem.html:38
 #: lms/templates/word_cloud.html:40
 msgid "Save"
-msgstr "صرفه جویی"
+msgstr "ذخیره کردن"
 
 #: cms/templates/maintenance/_announcement_index.html:42
 msgid "Create New"
@@ -18968,7 +18967,7 @@ msgstr "وارد كردن"
 #: cms/templates/widgets/header.html:242 cms/templates/widgets/header.html:247
 #: cms/templates/widgets/header.html:306
 msgid "Export"
-msgstr "صادرات"
+msgstr "خروجی گرفتن"
 
 #: cms/templates/widgets/header.html:273
 msgid "Current Library:"
@@ -19878,7 +19877,7 @@ msgstr "واحد جدید"
 
 #: lms/templates/seq_block.html:97
 msgid "Paste as new unit"
-msgstr "چسباندن به عنوان واحد جدید"
+msgstr "جایگذاری به عنوان واحد جدید"
 
 #: lms/templates/signup_modal.html:27
 msgid "Sign Up for {platform_name}"
@@ -20077,7 +20076,7 @@ msgstr "صفحه بعد"
 
 #: lms/templates/studio_render_children_view.html:16
 msgid "Paste Component"
-msgstr "چسباندن جزء"
+msgstr "جایگذاری کامپوننت"
 
 #: lms/templates/studio_render_children_view.html:24
 msgid "From:"
@@ -22982,7 +22981,7 @@ msgstr "موضوع:"
 
 #: lms/templates/discussion/_discussion_inline.html:36
 msgid "Show Discussion"
-msgstr "نمایش بحث"
+msgstr "نمایش بحث و گفتگو"
 
 #: lms/templates/discussion/_discussion_inline_studio.html:8
 msgid "To view live discussions, click Preview or View Live in Unit Settings."
@@ -25110,9 +25109,9 @@ msgid ""
 "Only If Score Improves' option updates the learner's scores only if it "
 "improves in the learner's favor."
 msgstr ""
-"هر پاسخی که ارسال شده است را مجدداً ثبت کنید. گزینه &quot;Rescore All "
-"Problems Only If Score Improves&quot; امتیازهای زبان آموز را تنها در صورتی "
-"به روز می کند که به نفع زبان آموز بهبود یابد."
+"هر پاسخی که ارسال شده است را مجدداً ثبت کنید. گزینه \" فقط در صورت بهبود "
+"نمرات مجدد امتیاز بگیرید \" امتیازهای زبان آموز را تنها در صورتی به روز می "
+"کند که به نفع زبان آموز بهبود یابد."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:165
 msgid "Rescore All Problems"
@@ -25155,9 +25154,9 @@ msgid ""
 "Rescore submitted responses. The 'Rescore Only If Scores Improve' option "
 "updates a learner's score only if it improves in the learner's favor."
 msgstr ""
-"امتیاز مجدد پاسخ های ارسالی گزینه &quot;Rescore Only If Scores Improve&quot;"
-" امتیاز زبان آموز را تنها در صورتی به روز می کند که به نفع زبان آموز بهبود "
-"یابد."
+"پاسخ های ارسالی را مجدد امتیاز دهید. گزینه \"فقط در صورت بهبود نمرات مجدد "
+"امتیاز بگیرید\" امتیاز زبان آموز را تنها در صورتی به روز می کند که به نفع "
+"زبان آموز بهبود یابد."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:219
 msgid "Rescore All Learners' Submissions"

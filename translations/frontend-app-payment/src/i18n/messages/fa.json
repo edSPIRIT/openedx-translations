@@ -31,7 +31,7 @@
   "payment.productlineitem.purchase.cart.subheading": "خرید شما شامل موارد زیر است:",
   "payment.screen.reader.cart.details.loading": "در حال بارگذاری لطفا صبر کنید...",
   "payment.coupon.label": "افزودن کد کوپن (اختیاری)",
-  "payment.coupon.submit": "درخواست دادن",
+  "payment.coupon.submit": "اعمال کردن",
   "payment.coupon.benefit.absolute": "کوپن {code} برای تخفیف {amount} اعمال شد",
   "payment.coupon.benefit.percentage": "کوپن {code} برای {amount} ٪ تخفیف اعمال شد",
   "payment.coupon.benefit.default": "کوپن {code} اعمال شد",

@@ -16,7 +16,7 @@
   "gradebook.GradebookFilters.tracks": "آهنگ های",
   "gradebook.GradebookFilters.trackAll": "آهنگ-همه",
   "gradebook.GradebookFilters.closeFilters": "فیلترها را ببندید",
-  "gradebook.GradebookFilters.apply": "درخواست دادن",
+  "gradebook.GradebookFilters.apply": "اعمال کردن",
   "gradebook.GradebookHeader.backButton": "بازگشت به داشبورد",
   "gradebook.GradebookHeader.appLabel": "دفترچه نمرات",
   "gradebook.GradebookHeader.frozenWarning": "نمرات این دوره در حال حاضر منجمد شده است. ویرایش نمرات دیگر مجاز نیست.",
