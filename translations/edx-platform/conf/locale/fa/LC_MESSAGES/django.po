@@ -25,8 +25,8 @@
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Eden Huthmacher, 2024
-# SeyedMahdi Saeid <saeid@edspirit.com>, 2024
 # HeliaEnayati, 2025
+# SeyedMahdi Saeid <saeid@edspirit.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-29 00:34+0000\n"
 "PO-Revision-Date: 2024-05-09 18:48+0000\n"
-"Last-Translator: HeliaEnayati, 2025\n"
+"Last-Translator: SeyedMahdi Saeid <saeid@edspirit.com>, 2025\n"
 "Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -648,7 +648,7 @@ msgstr "سطوح پشتیبانی {platform_name} :"
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
 msgid "Discussion"
-msgstr "بحث"
+msgstr "بحث و گفتگو"
 
 #: cms/djangoapps/contentstore/views/component.py:216
 #: openedx/core/djangoapps/content_libraries/constants.py:13
@@ -4569,7 +4569,7 @@ msgstr ""
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html:24
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.txt:18
 msgid "Go to Discussion"
-msgstr "به بحث بروید"
+msgstr "به بحث و گفتگو بروید"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.txt:4
 #, python-format
@@ -4590,7 +4590,7 @@ msgstr ""
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html:24
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt:16
 msgid "View discussion"
-msgstr "مشاهده بحث"
+msgstr "مشاهده بحث و گفتگو"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt:4
 #, python-format
@@ -25026,9 +25026,9 @@ msgid ""
 "Only If Score Improves' option updates the learner's score only if it "
 "improves in the learner's favor."
 msgstr ""
-"برای مشکل مشخص شده، پاسخ های یادگیرنده را دوباره نمره دهید. گزینه "
-"&quot;Rescore Only If Score Improves&quot; امتیاز زبان آموز را تنها در صورتی"
-" به روز می کند که به نفع زبان آموز بهبود یابد."
+"برای مشکل مشخص شده، پاسخ های یادگیرنده را دوباره نمره دهید. گزینه \"فقط در "
+"صورت بهبود امتیاز مجدد امتیاز بگیرید\" امتیاز زبان آموز را تنها در صورتی به "
+"روز می کند که به نفع زبان آموز بهبود یابد."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:101
 msgid "Score Override"
