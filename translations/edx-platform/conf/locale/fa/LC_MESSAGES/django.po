@@ -1979,7 +1979,7 @@ msgstr "TIME_FORMAT"
 #: common/djangoapps/util/date_utils.py:263
 msgctxt "am/pm indicator"
 msgid "AM"
-msgstr "صبح"
+msgstr "قبل از ظهر"
 
 #. Translators: This is an AM/PM indicator for displaying times.  It is
 #. used for the %p directive in date-time formats. See http://strftime.org
@@ -1987,7 +1987,7 @@ msgstr "صبح"
 #: common/djangoapps/util/date_utils.py:267
 msgctxt "am/pm indicator"
 msgid "PM"
-msgstr "PM"
+msgstr "بعد از ظهر"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Monday Februrary 10, 2014". It is used for the %A
@@ -2003,7 +2003,7 @@ msgstr "دوشنبه"
 #: common/djangoapps/util/date_utils.py:278
 msgctxt "weekday name"
 msgid "Tuesday"
-msgstr "سهشنبه"
+msgstr "سه‌شنبه"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Wednesday Februrary 12, 2014". It is used for the %A
@@ -2011,7 +2011,7 @@ msgstr "سهشنبه"
 #: common/djangoapps/util/date_utils.py:282
 msgctxt "weekday name"
 msgid "Wednesday"
-msgstr "چهار شنبه"
+msgstr "چهارشنبه"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Thursday Februrary 13, 2014". It is used for the %A
@@ -2019,7 +2019,7 @@ msgstr "چهار شنبه"
 #: common/djangoapps/util/date_utils.py:286
 msgctxt "weekday name"
 msgid "Thursday"
-msgstr "پنج شنبه"
+msgstr "پنج‌شنبه"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Friday Februrary 14, 2014". It is used for the %A
@@ -2059,7 +2059,7 @@ msgstr "دوشنبه"
 #: common/djangoapps/util/date_utils.py:309
 msgctxt "abbreviated weekday name"
 msgid "Tue"
-msgstr "سه شنبه"
+msgstr "سه‌شنبه"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Wed Feb 12, 2014". It is used for the %a
@@ -2075,7 +2075,7 @@ msgstr "چهارشنبه"
 #: common/djangoapps/util/date_utils.py:317
 msgctxt "abbreviated weekday name"
 msgid "Thu"
-msgstr "پنج شنبه"
+msgstr "پنج‌شنبه"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Fri Feb 14, 2014". It is used for the %a
@@ -2091,7 +2091,7 @@ msgstr "جمعه"
 #: common/djangoapps/util/date_utils.py:325
 msgctxt "abbreviated weekday name"
 msgid "Sat"
-msgstr "نشست"
+msgstr "شنبه"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Sun Feb 16, 2014". It is used for the %a
@@ -2099,7 +2099,7 @@ msgstr "نشست"
 #: common/djangoapps/util/date_utils.py:329
 msgctxt "abbreviated weekday name"
 msgid "Sun"
-msgstr "آفتاب"
+msgstr "یکشنبه"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jan 10, 2014". It is used for the %b
@@ -2107,7 +2107,7 @@ msgstr "آفتاب"
 #: common/djangoapps/util/date_utils.py:336
 msgctxt "abbreviated month name"
 msgid "Jan"
-msgstr "ژان"
+msgstr "ژانویه"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Feb 10, 2014". It is used for the %b
@@ -2139,7 +2139,7 @@ msgstr "آوریل"
 #: common/djangoapps/util/date_utils.py:352
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr "ممکن است"
+msgstr "می"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jun 10, 2014". It is used for the %b
@@ -2155,7 +2155,7 @@ msgstr "ژوئن"
 #: common/djangoapps/util/date_utils.py:360
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr "ژوئیه"
+msgstr "جولای"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
@@ -2235,7 +2235,7 @@ msgstr "آوریل"
 #: common/djangoapps/util/date_utils.py:403
 msgctxt "month name"
 msgid "May"
-msgstr "ممکن است"
+msgstr "می"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "June 10, 2014". It is used for the %B directive in
@@ -2259,7 +2259,7 @@ msgstr "جولای"
 #: common/djangoapps/util/date_utils.py:415
 msgctxt "month name"
 msgid "August"
-msgstr "مرداد"
+msgstr "اوت"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "September 10, 2014". It is used for the %B directive in
