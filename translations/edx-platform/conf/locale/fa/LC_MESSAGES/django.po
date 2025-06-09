@@ -1472,16 +1472,16 @@ msgstr ""
 
 #: common/djangoapps/student/models/user.py:461
 msgid "Male"
-msgstr "نر"
+msgstr "آقا"
 
 #: common/djangoapps/student/models/user.py:462
 msgid "Female"
-msgstr "مونث"
+msgstr "خانم"
 
 #. Translators: 'Other' refers to the student's gender
 #: common/djangoapps/student/models/user.py:464
 msgid "Other/Prefer Not to Say"
-msgstr "دیگر/ ترجیح می دهند نگویند"
+msgstr "سایر/ترجیح می‌دم نگم"
 
 #: common/djangoapps/student/models/user.py:475
 msgid "Doctorate"
